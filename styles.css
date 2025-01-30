@@ -1,0 +1,82 @@
+body {
+    background-color: black; 
+    font-family: 'Comic Sans MS', cursive, sans-serif; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh; 
+}
+.postcard {
+    width: 300px; 
+    height: 400px; 
+    max-width: 100%;
+    padding: 5px;
+    background-color: white; 
+    border-radius: 10px; 
+    overflow: hidden; 
+    display: flex; 
+    flex-direction: column; 
+    justify-content: space-between; 
+}
+.form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5px; 
+}
+.form-container input
+ {
+    margin-bottom: 5px; 
+    padding: 10px;
+    width: 80%; 
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    font-size: 14px; 
+}
+.postcard-header {
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    margin-bottom: 5px; 
+}
+.postcard-header h1 {
+    margin: 0; 
+    color: black; 
+    font-size: 22px; 
+    font-family: 'Comic Sans MS', cursive, sans-serif; 
+}
+.postcard-header img {
+    width: 40px; 
+}
+.postcard-body {
+    display: flex; 
+    justify-content: space-between; 
+    flex-direction: row; 
+    width: 100%; 
+    margin-bottom: 5px; 
+}
+.body1,
+.body2 {
+    width: 48%; 
+    color: black; 
+    font-family: 'Comic Sans MS', cursive, sans-serif; 
+    font-size: 14px; 
+}
+.postcard-footer {
+    text-align: center;
+    margin-top: 5px; 
+}
+.sendb {
+    background-color: grey; 
+    color: white; 
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-family: 'Comic Sans MS', cursive, sans-serif; 
+}
+.sendb:hover {
+    background-color: grey; 
+}
